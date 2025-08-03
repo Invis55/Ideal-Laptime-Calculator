@@ -1,0 +1,103 @@
+{
+  "name": "Spa-Francorchamps",
+  "location": "Belgium",
+  "length_m": 7004,
+  "sections": [
+    {
+      "type": "straight",
+      "name": "Start-Finish to La Source",
+      "length_m": 700
+    },
+    {
+      "type": "corner",
+      "name": "La Source",
+      "length_m": 120,
+      "radius_m": 20,
+      "apex_speed_kph": 90
+    },
+    {
+      "type": "straight",
+      "name": "La Source to Eau Rouge",
+      "length_m": 350
+    },
+    {
+      "type": "corner",
+      "name": "Eau Rouge + Raidillon",
+      "length_m": 450,
+      "radius_m": 40,
+      "apex_speed_kph": 285
+    },
+    {
+      "type": "straight",
+      "name": "Kemmel Straight",
+      "length_m": 800,
+      "drs": true
+    },
+    {
+      "type": "corner",
+      "name": "Les Combes",
+      "length_m": 250,
+      "radius_m": 45,
+      "apex_speed_kph": 160
+    },
+    {
+      "type": "corner",
+      "name": "Bruxelles",
+      "length_m": 190,
+      "radius_m": 30,
+      "apex_speed_kph": 105
+    },
+    {
+      "type": "corner",
+      "name": "No Name",
+      "length_m": 100,
+      "radius_m": 35,
+      "apex_speed_kph": 145
+    },
+    {
+      "type": "corner",
+      "name": "Pouhon",
+      "length_m": 330,
+      "radius_m": 60,
+      "apex_speed_kph": 250
+    },
+    {
+      "type": "corner",
+      "name": "Fagnes (Double Right)",
+      "length_m": 260,
+      "radius_m": 40,
+      "apex_speed_kph": 180
+    },
+    {
+      "type": "corner",
+      "name": "Stavelot",
+      "length_m": 180,
+      "radius_m": 50,
+      "apex_speed_kph": 165
+    },
+    {
+      "type": "straight",
+      "name": "Courbe Paul Frère to Blanchimont",
+      "length_m": 600
+    },
+    {
+      "type": "corner",
+      "name": "Blanchimont",
+      "length_m": 270,
+      "radius_m": 70,
+      "apex_speed_kph": 310
+    },
+    {
+      "type": "corner",
+      "name": "Bus Stop Chicane",
+      "length_m": 200,
+      "radius_m": 25,
+      "apex_speed_kph": 90
+    },
+    {
+      "type": "straight",
+      "name": "Exit Chicane to Start/Finish",
+      "length_m": 250
+    }
+  ]
+}

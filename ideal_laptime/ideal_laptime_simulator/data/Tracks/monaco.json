@@ -1,0 +1,41 @@
+{
+  "name": "Monaco",
+  "length_m": 3337,
+  "drs_zones": 1,
+  "sectors": [
+    {
+      "name": "Sector 1",
+      "sections": [
+        {"type": "straight", "length_m": 250},
+        {"type": "corner", "length_m": 120, "corner_speed_kph": 85, "label": "Sainte Devote"},
+        {"type": "straight", "length_m": 260},
+        {"type": "corner", "length_m": 180, "corner_speed_kph": 105, "label": "Beau Rivage"}
+      ]
+    },
+    {
+      "name": "Sector 2",
+      "sections": [
+        {"type": "corner", "length_m": 150, "corner_speed_kph": 90, "label": "Massenet"},
+        {"type": "corner", "length_m": 100, "corner_speed_kph": 75, "label": "Casino"},
+        {"type": "straight", "length_m": 150},
+        {"type": "corner", "length_m": 60, "corner_speed_kph": 45, "label": "Mirabeau Haute"},
+        {"type": "corner", "length_m": 40, "corner_speed_kph": 40, "label": "Grand Hotel Hairpin"},
+        {"type": "corner", "length_m": 90, "corner_speed_kph": 70, "label": "Portier"}
+      ]
+    },
+    {
+      "name": "Sector 3",
+      "sections": [
+        {"type": "straight", "length_m": 500},
+        {"type": "corner", "length_m": 80, "corner_speed_kph": 120, "label": "Tunnel"},
+        {"type": "straight", "length_m": 200},
+        {"type": "corner", "length_m": 60, "corner_speed_kph": 90, "label": "Nouvelle Chicane"},
+        {"type": "corner", "length_m": 90, "corner_speed_kph": 100, "label": "Tabac"},
+        {"type": "corner", "length_m": 80, "corner_speed_kph": 95, "label": "Swimming Pool"},
+        {"type": "corner", "length_m": 50, "corner_speed_kph": 60, "label": "La Rascasse"},
+        {"type": "corner", "length_m": 45, "corner_speed_kph": 70, "label": "Anthony Noghes"},
+        {"type": "straight", "length_m": 250}
+      ]
+    }
+  ]
+}

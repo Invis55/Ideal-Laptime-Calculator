@@ -1,0 +1,188 @@
+{
+  "name": "Silverstone Circuit",
+  "country": "UK",
+  "length_m": 5891,
+  "corners_count": 18,
+  "sectors": [
+    {
+      "type": "straight",
+      "name": "Start-Finish",
+      "length_m": 450,
+      "drs": true,
+      "elevation_change": 1.0
+    },
+    {
+      "type": "corner",
+      "name": "Abbey",
+      "length_m": 80,
+      "radius_m": 200,
+      "apex_speed_kph": 270,
+      "angle_deg": 30,
+      "camber": 0.8,
+      "elevation_change": 0.4
+    },
+    {
+      "type": "corner",
+      "name": "Farm Curve",
+      "length_m": 60,
+      "radius_m": 180,
+      "apex_speed_kph": 250,
+      "angle_deg": 25,
+      "camber": 1.0,
+      "elevation_change": 0.3
+    },
+    {
+      "type": "corner",
+      "name": "Village",
+      "length_m": 100,
+      "radius_m": 90,
+      "apex_speed_kph": 120,
+      "angle_deg": 90,
+      "camber": -1.5,
+      "elevation_change": -0.2
+    },
+    {
+      "type": "corner",
+      "name": "The Loop",
+      "length_m": 70,
+      "radius_m": 65,
+      "apex_speed_kph": 85,
+      "angle_deg": 110,
+      "camber": -2.0,
+      "elevation_change": 0.1
+    },
+    {
+      "type": "straight",
+      "name": "Wellington Straight",
+      "length_m": 750,
+      "drs": true,
+      "elevation_change": 0.8
+    },
+    {
+      "type": "corner",
+      "name": "Brooklands",
+      "length_m": 120,
+      "radius_m": 150,
+      "apex_speed_kph": 160,
+      "angle_deg": 100,
+      "camber": -1.0,
+      "elevation_change": -0.5
+    },
+    {
+      "type": "corner",
+      "name": "Luffield",
+      "length_m": 160,
+      "radius_m": 60,
+      "apex_speed_kph": 90,
+      "angle_deg": 180,
+      "camber": -2.0,
+      "elevation_change": 0.0
+    },
+    {
+      "type": "straight",
+      "name": "Woodcote",
+      "length_m": 300,
+      "drs": false,
+      "elevation_change": 0.3
+    },
+    {
+      "type": "corner",
+      "name": "Copse",
+      "length_m": 150,
+      "radius_m": 250,
+      "apex_speed_kph": 280,
+      "angle_deg": 45,
+      "camber": 1.5,
+      "elevation_change": -0.4
+    },
+    {
+      "type": "corner",
+      "name": "Maggots",
+      "length_m": 100,
+      "radius_m": 110,
+      "apex_speed_kph": 260,
+      "angle_deg": 30,
+      "camber": 1.2,
+      "elevation_change": -0.2
+    },
+    {
+      "type": "corner",
+      "name": "Becketts",
+      "length_m": 90,
+      "radius_m": 100,
+      "apex_speed_kph": 230,
+      "angle_deg": 40,
+      "camber": 1.0,
+      "elevation_change": -0.1
+    },
+    {
+      "type": "corner",
+      "name": "Chapel",
+      "length_m": 80,
+      "radius_m": 90,
+      "apex_speed_kph": 240,
+      "angle_deg": 25,
+      "camber": 0.5,
+      "elevation_change": 0.1
+    },
+    {
+      "type": "straight",
+      "name": "Hangar Straight",
+      "length_m": 770,
+      "drs": true,
+      "elevation_change": 0.2
+    },
+    {
+      "type": "corner",
+      "name": "Stowe",
+      "length_m": 120,
+      "radius_m": 170,
+      "apex_speed_kph": 210,
+      "angle_deg": 80,
+      "camber": 0.3,
+      "elevation_change": -0.6
+    },
+    {
+      "type": "corner",
+      "name": "Vale",
+      "length_m": 100,
+      "radius_m": 80,
+      "apex_speed_kph": 100,
+      "angle_deg": 90,
+      "camber": -1.0,
+      "elevation_change": -0.2
+    },
+    {
+      "type": "corner",
+      "name": "Club",
+      "length_m": 130,
+      "radius_m": 100,
+      "apex_speed_kph": 140,
+      "angle_deg": 100,
+      "camber": -0.5,
+      "elevation_change": 0.5
+    }
+  ],
+  "drs_zones": [
+    {
+      "start_m": 30,
+      "end_m": 480
+    },
+    {
+      "start_m": 1600,
+      "end_m": 2350
+    },
+    {
+      "start_m": 4000,
+      "end_m": 4770
+    }
+  ],
+  "track_grip": {
+    "base_grip": 0.92,
+    "grip_variation": {
+      "wet": -0.25,
+      "hot": -0.05,
+      "rubbered": 0.03
+    }
+  }
+}
