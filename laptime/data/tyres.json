@@ -1,0 +1,14 @@
+{
+  "compounds": {
+    "soft":         {"type": "slick",        "grip": 1.000, "deg_per_lap": 0.0035},
+    "medium":       {"type": "slick",        "grip": 0.988, "deg_per_lap": 0.0020},
+    "hard":         {"type": "slick",        "grip": 0.976, "deg_per_lap": 0.0012},
+    "intermediate": {"type": "intermediate", "grip": 1.000, "deg_per_lap": 0.0030},
+    "wet":          {"type": "wet",          "grip": 1.000, "deg_per_lap": 0.0020}
+  },
+  "conditions": {
+    "dry":  {"slick": 1.00, "intermediate": 0.86, "wet": 0.78},
+    "damp": {"slick": 0.78, "intermediate": 0.87, "wet": 0.80},
+    "wet":  {"slick": 0.50, "intermediate": 0.73, "wet": 0.77}
+  }
+}

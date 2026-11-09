@@ -1,0 +1,31 @@
+{
+  "f1_2025": {
+    "description": "2022-2025 ground-effect F1 car with DRS. Grip and downforce calibrated to five 2025 pole laps (RMS error 1.8%). The MGU-H let these cars deploy the MGU-K for most of a lap, so full power is available throughout.",
+    "mass_kg": 800,
+    "power_kw": 700,
+    "cda_m2": 1.30,
+    "cla_m2": 5.28,
+    "mu_x": 1.65,
+    "mu_y": 2.20,
+    "load_sensitivity": 0.264,
+    "drive_load_fraction": 0.55,
+    "crr": 0.012,
+    "low_drag": {"name": "DRS", "cda_factor": 0.82, "cla_factor": 0.88}
+  },
+  "f1_2026": {
+    "description": "2026 regulations, derived from the calibrated 2025 car using published targets: 768 kg, ~30% less downforce, ~55% less drag in straight-line mode, narrower tyres, ~400 kW ICE + 350 kW MGU-K limited to ~8.5 MJ per lap and tapering to zero between 290 and 355 kph. Not calibrated against real 2026 laps.",
+    "mass_kg": 768,
+    "power_kw": 390,
+    "ers_kw": 350,
+    "ers_energy_mj": 8.5,
+    "ers_taper_kph": [290, 355],
+    "cda_m2": 0.98,
+    "cla_m2": 3.70,
+    "mu_x": 1.60,
+    "mu_y": 2.13,
+    "load_sensitivity": 0.264,
+    "drive_load_fraction": 0.55,
+    "crr": 0.012,
+    "low_drag": {"name": "Straight-line mode", "cda_factor": 0.60, "cla_factor": 0.60}
+  }
+}
